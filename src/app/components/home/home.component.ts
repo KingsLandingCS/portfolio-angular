@@ -67,6 +67,12 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/nodejs.png', alt: 'Image 4' },
     { src: '../../../assets/nodejs.png', alt: 'Image 4' },
     { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
+    { src: '../../../assets/nodejs.png', alt: 'Image 4' },
   ];
 
   // Image List - Second Column
@@ -74,6 +80,11 @@ export class HomeComponent implements OnInit {
     { src: '../../../assets/ethereum.png', alt: 'Image 1' },
     { src: '../../../assets/ethereum.png', alt: 'Image 2' },
     { src: '../../../assets/ethereum.png', alt: 'Image 3' },
+    { src: '../../../assets/ethereum.png', alt: 'Image 4' },
+    { src: '../../../assets/ethereum.png', alt: 'Image 4' },
+    { src: '../../../assets/ethereum.png', alt: 'Image 4' },
+    { src: '../../../assets/ethereum.png', alt: 'Image 4' },
+    { src: '../../../assets/ethereum.png', alt: 'Image 4' },
     { src: '../../../assets/ethereum.png', alt: 'Image 4' },
     { src: '../../../assets/ethereum.png', alt: 'Image 4' },
     { src: '../../../assets/ethereum.png', alt: 'Image 4' },

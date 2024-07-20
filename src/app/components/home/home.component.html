@@ -91,13 +91,13 @@
     <div class="image-list-container" #imageListContainer [class.visible]="imageListVisible">
       <div class="row">
         <!-- image-list-first-column -->
-        <div class=" image-list-first-column d-flex flex-row justify-content-center p-4">
+        <div class=" image-list-first-column d-flex flex-row flex-wrap justify-content-center p-4">
           <div *ngFor="let image of imageList">
             <img [src]="image.src" [alt]="image.alt">
           </div>
         </div>
         <!-- image-list-second-column -->
-        <div class=" image-list-second-column d-flex flex-row justify-content-center">
+        <div class=" image-list-second-column d-flex flex-row flex-wrap justify-content-center">
           <div *ngFor="let image of imageList2">
             <img [src]="image.src" [alt]="image.alt">
           </div>
