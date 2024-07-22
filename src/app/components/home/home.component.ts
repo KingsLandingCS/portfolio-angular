@@ -17,8 +17,10 @@ export class HomeComponent implements OnInit {
 
   // Intersection Observer
   public isInView: boolean = false;
+
   // Image List
   public imageListVisible: boolean = false;
+  
   // Timeline
   public timelineVisible: boolean = false;
 
