@@ -1,7 +1,8 @@
 <!-- home-wrapper -->
-<div class="home-wrapper overflow-hidden">
+<div class="home-wrapper overflow-hidden section" id="home">
+
   <!-- first-container -->
-  <div class="first-container p-0 d-flex justify-content-center">
+  <div class="first-container p-0 d-flex justify-content-center  " id="about">
     <!-- Introduction Card -->
     <div class="card text-center bg-transparent" #card
       [ngStyle]="{'transform': 'translate(' + cardPosition.x + 'px, ' + cardPosition.y + 'px)'}">
@@ -38,7 +39,7 @@
 
 
   <!-- second-container -->
-  <div class="second-container py-5" #secondContainer>
+  <div class="second-container py-5  " id="service" #secondContainer>
 
     <div class="row mt-5">
       <!-- first column -->
@@ -109,7 +110,7 @@
 
 
   <!-- third-container -->
-  <div class="third-container" #thirdContainer>
+  <div class="third-container  " id="experience" #thirdContainer>
 
     <!-- header-container -->
     <div class="header-container text-center">
@@ -209,7 +210,7 @@
 
 
   <!-- fourth-container -->
-  <div class="fourth-container container mt-5">
+  <div class="fourth-container container mt-5  " id="portfolio">
     <p-carousel [value]="fourthContainerCards" [numVisible]="getColumnsToShow()" [numScroll]="1"
       [responsiveOptions]="responsiveOptions" [circular]="true" [autoplayInterval]="3000">
       <ng-template pTemplate="item" let-card>
@@ -232,6 +233,8 @@
 
     </div>
   </div>
+
+
 
 
   <!-- home-wrapper ends-->
